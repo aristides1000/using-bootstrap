@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+:root {
+  --red-color: #f72210;
+  --yellow-color: #ffe400;
+  --white-transparency-color-1: #ffffffb9;
+  --oswald-font: 'Oswald', sans-serif;
+  --white-transparency-color-2: #ffffffde;
+  --gray-color: #03030366;
+  --arial-font: Arial, Helvetica, sans-serif;
+}
+
+.body {
+  background-color: #f4f5f6;
+}
+
+.header {
+  background-color: var(--red-color);
+}
+
+.section {
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+}
+
+.icon-user-navbar {
+  color: var(--white-transparency-color-1);
+}
+
+.button-subscribe {
+  color: black;
+  background-color: var(--yellow-color);
+  font-family: var(--oswald-font);
+}
+
+.button-subscribe:hover {
+  background-color: var(--yellow-color);
+  color: black;
+}
+
+.button-burger {
+  color: var(--white-transparency-color-1);
+}
+
+.button-burger:hover {
+  color: var(--white-transparency-color-1);
+}
+
+.button-botton-start-img {
+  background-color: var(--white-transparency-color-2);
+  color: var(--red-color);
+}
+
+.title-font-part-1 {
+  font-family: var(--oswald-font);
+}
+
+.subtitle-font-part-1 {
+  font-family: var(--arial-font);
+  font-size: small;
+}
+
+.top-title-font-part-1 {
+  color: var(--gray-color);
+  font-family: var(--oswald-font);
+}
