@@ -7,11 +7,8 @@
   --oswald-font: 'Oswald', sans-serif;
   --white-transparency-color-2: #ffffffde;
   --gray-color: #03030366;
+  --gray-color-2:#f4f5f7;
   --arial-font: Arial, Helvetica, sans-serif;
-}
-
-.body {
-  background-color: #f4f5f6;
 }
 
 .header {
@@ -70,4 +67,8 @@
 
 .title-2-font-part-1 {
   font-family: var(--oswald-font);
+}
+
+.gray-separator {
+  background-color: var(--gray-color-2);
 }
