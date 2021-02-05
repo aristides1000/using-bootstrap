@@ -73,4 +73,22 @@
   background-color: var(--gray-color-2);
 }
 
+.debate-autor-font-part-1 {
+  color: black;
+}
 
+.debate-autor-font-part-2 {
+  font-family: var(--oswald-font);
+  color: #555555;
+  font-size: 0.8rem;
+}
+
+.double-border-style {
+  border-style: double none none none;
+  color: #d9d9d9;
+}
+
+.vs-circle {
+  height: 32px;
+  width: 32px;
+}
