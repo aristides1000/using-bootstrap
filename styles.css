@@ -47,8 +47,8 @@
 }
 
 .button-botton-start-img {
-  background-color: var(--white-transparency-color-2);
-  color: var(--red-color);
+  background-color: #c2d4d7;
+  color: black;
 }
 
 .title-font-part-1 {
@@ -95,4 +95,38 @@
 
 .title-section-fourth {
   color: #03030380;
+}
+
+.card-free-sign-up {
+  background-color: #f4f5f6;
+}
+
+.img-icon-n {
+  background: url(assets/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.card-title-1 {
+  font-family: var(--oswald-font);
+}
+
+.placeholder-text {
+  font-family: var(--arial-font);
+  font-size: 0.95rem;
+}
+
+.button-free-sign-up {
+  background-color: var(--red-color);
+  font-family: var(--oswald-font);
+}
+
+.icon-free-Sign-Up {
+  font-size: 18px;
+}
+
+.in-the-magazine-title {
+  font-family: var(--oswald-font);
+  font-size: 1.2rem;
 }
