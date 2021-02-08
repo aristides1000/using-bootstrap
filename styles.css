@@ -130,3 +130,12 @@
   font-family: var(--oswald-font);
   font-size: 1.2rem;
 }
+
+.button-botton-start-img-trump {
+  background-color: #ffffffe6;
+  color: var(--red-color);
+}
+
+.see-all-features-title {
+  font-family: var(--oswald-font);
+}
