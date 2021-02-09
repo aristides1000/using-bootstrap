@@ -153,3 +153,11 @@
   font-family: var(--oswald-font);
   font-size: 16px;
 }
+
+.us-title {
+  color: var(--red-color);
+}
+
+.title-font-part-6 {
+  font-family: var(--oswald-font);
+}
