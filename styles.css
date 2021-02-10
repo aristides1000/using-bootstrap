@@ -161,3 +161,42 @@
 .title-font-part-6 {
   font-family: var(--oswald-font);
 }
+
+.title-color-red {
+  color: var(--red-color);
+}
+
+.in-depth-stories {
+  margin-top: 10rem;
+}
+
+.up-img-magazine {
+  left: 43%;
+  top: 0.5rem;
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.down-img-magazine {
+  left: 33%;
+  top: -0.5rem;
+  z-index: 1;
+}
+
+.bg-gray-color {
+  background-color: var(--gray-color-2);
+}
+
+.newsletter-bg-img {
+  background: url(assets/img-87.png) center center / cover no-repeat;
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .newsletter-bg-img {
+    height: 170px;
+  }
+}
