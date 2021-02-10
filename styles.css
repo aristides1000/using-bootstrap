@@ -13,6 +13,9 @@
 
 .header {
   background-color: var(--red-color);
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .section {
@@ -193,6 +196,14 @@
 .newsletter-bg-img {
   background: url(assets/img-87.png) center center / cover no-repeat;
   width: 100%;
+}
+
+.img-footer {
+  width: 236px;
+}
+
+.icons-footer {
+  color: #666666;
 }
 
 @media (max-width: 767.98px) {
