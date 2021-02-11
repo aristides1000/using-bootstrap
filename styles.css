@@ -82,6 +82,17 @@
   color: black;
 }
 
+.button-subscribe-2 {
+  color: black;
+  background-color: var(--yellow-color);
+  font-family: var(--oswald-font);
+}
+
+.button-subscribe-2:hover {
+  background-color: var(--yellow-color);
+  color: black;
+}
+
 .button-burger {
   color: var(--white-transparency-color-1);
 }
@@ -162,6 +173,11 @@
 }
 
 .button-free-sign-up {
+  background-color: var(--red-color);
+  font-family: var(--oswald-font);
+}
+
+.button-free-sign-up-2 {
   background-color: var(--red-color);
   font-family: var(--oswald-font);
 }
@@ -247,6 +263,14 @@
   color: #666666;
 }
 
+.input-newsletter {
+  width: 50%;
+}
+
+.button-free-sign-up-2 {
+  width: 50%;
+}
+
 @media (max-width: 767.98px) {
   .newsletter-bg-img {
     height: 170px;
@@ -322,5 +346,110 @@
 
   .border-right {
     border-right: 1px solid #d9d9d9;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-grid {
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas:
+      "featured-stories top-story the-debate"
+      "featured-stories my-turn the-debate"
+      "featured-stories culture-and-travel the-debate"
+      "featured-stories more-stories form-start-your-day"
+      "featured-stories more-stories form-start-your-day";
+  }
+
+  .magazine-subs {
+    width: 162%;
+  }
+
+  .card {
+    height: 18rem;
+  }
+
+  .input-newsletter {
+    width: 100%;
+  }
+
+  .button-free-sign-up-2 {
+    width: 100%;
+  }
+
+  .border-bottom-newsletter-2 {
+    border-bottom: 2px solid #f4f5f6;
+  }
+
+  .main-logo {
+    width: 60%;
+  }
+
+  .nav-date {
+    color: white;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-login {
+    color: white;
+    font-family: var(--oswald-font);
+  }
+
+  .header {
+    position: static;
+  }
+
+  .firts-ul {
+    background-color: white;
+  }
+
+  .second-ul {
+    background-color: white;
+  }
+
+  .nav-item-user {
+    color: black;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user-2 {
+    color: black;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user-3 {
+    color: #807f84;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user:hover {
+    color: var(--red-color);
+  }
+
+  .nav-item-user-2:hover {
+    color: black;
+  }
+
+  .nav-item-user-3:hover {
+    color: var(--red-color);
+  }
+
+  .nav-search {
+    width: 30%;
+  }
+
+  .sharp-point-rectangle {
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid var(--red-color);
+    border-bottom: 10px solid var(--red-color);
+    transform: rotate(180deg);
+  }
+
+  .rectangle {
+    height: 20px;
+    width: 80px;
+    background-color: var(--red-color);
   }
 }
