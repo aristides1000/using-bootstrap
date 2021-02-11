@@ -264,6 +264,10 @@
   color: #666;
 }
 
+.icons-footer:hover {
+  color: #666;
+}
+
 .input-newsletter {
   width: 50%;
 }

@@ -33,7 +33,12 @@ Computer running Mac OS, Windows, or Linux Ubuntu. Internet browser: Firefox, Go
 
 ### Install
 
-Download the code or copy the git repository to your computer.
+Getting Started
+To get a local copy up and running follow these simple example steps:
+
+- You need to clone the repository on your device.
+- Unzip the repository or just clone it using git or github.
+- Grab the index.html file and open it on your favorite browser.
 
 ### Usage
 Run the index.html file.
@@ -64,3 +69,4 @@ Give a ⭐️ if you like this project!
 
 Ariel Camus CEO Microverse: For letting us start this journey
 Google: For letting us find crucial information in order to create this project
+[Newsweek]https://www.newsweek.com/: For having served as guidance when it comes to making a good responsive design
