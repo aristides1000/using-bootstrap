@@ -2,7 +2,7 @@
 
 # News Information Page - Newsweek Clone
 
-> We created a clone of a view of Newsweek portal from scratch.
+> I created a clone of a view of Newsweek portal from scratch.
 ![screenshot](./app_screenshot.png)
 
 Newsweek Clone
