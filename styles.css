@@ -15,11 +15,52 @@
   background-color: var(--red-color);
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .section {
   background-color: white;
+}
+
+.top-story {
+  grid-area: top-story;
+}
+
+.featured-stories {
+  grid-area: featured-stories;
+}
+
+.the-debate {
+  grid-area: the-debate;
+}
+
+.more-stories {
+  grid-area: more-stories;
+}
+
+.my-turn {
+  grid-area: my-turn;
+}
+
+.culture-and-travel {
+  grid-area: culture-and-travel;
+}
+
+.form-start-your-day {
+  grid-area: form-start-your-day;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "top-story"
+    "featured-stories"
+    "the-debate"
+    "more-stories"
+    "my-turn"
+    "culture-and-travel"
+    "form-start-your-day";
 }
 
 .footer {
@@ -209,5 +250,77 @@
 @media (max-width: 767.98px) {
   .newsletter-bg-img {
     height: 170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-grid {
+    grid-template-columns: 45% 55%;
+    grid-template-areas:
+      "featured-stories top-story"
+      "featured-stories my-turn"
+      "featured-stories culture-and-travel"
+      "featured-stories more-stories"
+      "the-debate the-debate"
+      "form-start-your-day form-start-your-day";
+  }
+
+  .title-section-fourth {
+    font-size: 16px;
+  }
+
+  .button-botton-start-img {
+    font-size: 11px;
+  }
+
+  .see-all-features-title {
+    background-color: var(--gray-color-2);
+  }
+
+  .button-botton-start-img-trump {
+    background-color: #ffffffe6;
+    color: var(--red-color);
+    font-size: 16px;
+  }
+
+  .bg-color-md {
+    background-color: white;
+  }
+
+  .in-depth-stories {
+    margin-top: 0px;
+  }
+
+  .down-img-magazine {
+    left: 7%;
+    top: 2rem;
+    z-index: 1;
+  }
+
+  .up-img-magazine {
+    left: 36%;
+    top: 2.7rem;
+    z-index: 2;
+  }
+
+  .newsletter-bg-img {
+    width: 50%;
+  }
+
+  .newsletter-content {
+    width: 50%;
+    border: 1px solid #dedede;
+  }
+
+  .border-bottom-newsletter {
+    border-bottom: 2px solid #f4f5f6;
+  }
+
+  .icons-list {
+    margin-left: auto;
+  }
+
+  .border-right {
+    border-right: 1px solid #d9d9d9;
   }
 }
