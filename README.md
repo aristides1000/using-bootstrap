@@ -67,6 +67,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Ariel Camus CEO Microverse: For letting us start this journey
-Google: For letting us find crucial information in order to create this project
-[Newsweek]https://www.newsweek.com/: For having served as guidance when it comes to making a good responsive design
+- Ariel Camus CEO Microverse: For letting us start this journey.
+- Google: For letting us find crucial information in order to create this project.
+- [Newsweek](https://www.newsweek.com/): For having served as guidance when it comes to making a good responsive design
