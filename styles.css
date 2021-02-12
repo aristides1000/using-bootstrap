@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+:root {
+  --red-color: #f72210;
+  --yellow-color: #ffe400;
+  --white-transparency-color-1: #ffffffb9;
+  --oswald-font: 'Oswald', sans-serif;
+  --white-transparency-color-2: #ffffffde;
+  --gray-color: #03030366;
+  --gray-color-2: #f4f5f7;
+  --arial-font: arial, helvetica, sans-serif;
+}
+
+.header {
+  background-color: var(--red-color);
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.section {
+  background-color: white;
+}
+
+.top-story {
+  grid-area: top-story;
+}
+
+.featured-stories {
+  grid-area: featured-stories;
+}
+
+.the-debate {
+  grid-area: the-debate;
+}
+
+.more-stories {
+  grid-area: more-stories;
+}
+
+.my-turn {
+  grid-area: my-turn;
+}
+
+.culture-and-travel {
+  grid-area: culture-and-travel;
+}
+
+.form-start-your-day {
+  grid-area: form-start-your-day;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "top-story"
+    "featured-stories"
+    "the-debate"
+    "more-stories"
+    "my-turn"
+    "culture-and-travel"
+    "form-start-your-day";
+}
+
+.footer {
+  background-color: white;
+}
+
+.icon-user-navbar {
+  color: var(--white-transparency-color-1);
+}
+
+.button-subscribe {
+  color: black;
+  background-color: var(--yellow-color);
+  font-family: var(--oswald-font);
+}
+
+.button-subscribe:hover {
+  background-color: var(--yellow-color);
+  color: black;
+}
+
+.button-subscribe-2 {
+  color: black;
+  background-color: var(--yellow-color);
+  font-family: var(--oswald-font);
+}
+
+.button-subscribe-2:hover {
+  background-color: var(--yellow-color);
+  color: black;
+}
+
+.button-burger {
+  color: var(--white-transparency-color-1);
+}
+
+.button-burger:hover {
+  color: var(--white-transparency-color-1);
+}
+
+.button-botton-start-img {
+  background-color: #c2d4d7;
+  color: black;
+}
+
+.title-font-part-1 {
+  font-family: var(--oswald-font);
+}
+
+.subtitle-font-part-1 {
+  font-family: var(--arial-font);
+  font-size: small;
+}
+
+.top-title-font-part-1 {
+  color: var(--gray-color);
+  font-family: var(--oswald-font);
+}
+
+.title-2-font-part-1 {
+  font-family: var(--oswald-font);
+}
+
+.gray-separator {
+  background-color: var(--gray-color-2);
+}
+
+.debate-autor-font-part-1 {
+  color: black;
+}
+
+.debate-autor-font-part-2 {
+  font-family: var(--oswald-font);
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.double-border-style {
+  border-style: double none none none;
+  color: #d9d9d9;
+}
+
+.vs-circle {
+  height: 32px;
+  width: 32px;
+}
+
+.title-section-fourth {
+  color: #03030380;
+}
+
+.card-free-sign-up {
+  background-color: #f4f5f6;
+}
+
+.img-icon-n {
+  background: url(assets/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.card-title-1 {
+  font-family: var(--oswald-font);
+}
+
+.placeholder-text {
+  font-family: var(--arial-font);
+  font-size: 0.95rem;
+}
+
+.button-free-sign-up {
+  background-color: var(--red-color);
+  font-family: var(--oswald-font);
+}
+
+.button-free-sign-up-2 {
+  background-color: var(--red-color);
+  font-family: var(--oswald-font);
+  width: 50%;
+}
+
+.icon-free-Sign-Up {
+  font-size: 18px;
+}
+
+.in-the-magazine-title {
+  font-family: var(--oswald-font);
+  font-size: 1.2rem;
+}
+
+.button-botton-start-img-trump {
+  background-color: #ffffffe6;
+  color: var(--red-color);
+}
+
+.see-all-features-title {
+  font-family: var(--oswald-font);
+}
+
+.features-title {
+  background-color: var(--red-color);
+  color: white;
+}
+
+.politics-title {
+  color: var(--red-color);
+}
+
+.title-5-font-part-1 {
+  font-family: var(--oswald-font);
+  font-size: 16px;
+}
+
+.us-title {
+  color: var(--red-color);
+}
+
+.title-font-part-6 {
+  font-family: var(--oswald-font);
+}
+
+.title-color-red {
+  color: var(--red-color);
+}
+
+.in-depth-stories {
+  margin-top: 10rem;
+}
+
+.up-img-magazine {
+  left: 43%;
+  top: 0.5rem;
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.down-img-magazine {
+  left: 33%;
+  top: -0.5rem;
+  z-index: 1;
+}
+
+.bg-gray-color {
+  background-color: var(--gray-color-2);
+}
+
+.newsletter-bg-img {
+  background: url(assets/img-87.png) center center / cover no-repeat;
+  width: 100%;
+}
+
+.img-footer {
+  width: 236px;
+}
+
+.icons-footer {
+  color: #666;
+}
+
+.icons-footer:hover {
+  color: #666;
+}
+
+.input-newsletter {
+  width: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .newsletter-bg-img {
+    height: 170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-grid {
+    grid-template-columns: 45% 55%;
+    grid-template-areas:
+      "featured-stories top-story"
+      "featured-stories my-turn"
+      "featured-stories culture-and-travel"
+      "featured-stories more-stories"
+      "the-debate the-debate"
+      "form-start-your-day form-start-your-day";
+  }
+
+  .title-section-fourth {
+    font-size: 16px;
+  }
+
+  .button-botton-start-img {
+    font-size: 11px;
+  }
+
+  .see-all-features-title {
+    background-color: var(--gray-color-2);
+  }
+
+  .button-botton-start-img-trump {
+    background-color: #ffffffe6;
+    color: var(--red-color);
+    font-size: 16px;
+  }
+
+  .bg-color-md {
+    background-color: white;
+  }
+
+  .in-depth-stories {
+    margin-top: 0;
+  }
+
+  .down-img-magazine {
+    left: 7%;
+    top: 2rem;
+    z-index: 1;
+  }
+
+  .up-img-magazine {
+    left: 36%;
+    top: 2.7rem;
+    z-index: 2;
+  }
+
+  .newsletter-bg-img {
+    width: 50%;
+  }
+
+  .newsletter-content {
+    width: 50%;
+    border: 1px solid #dedede;
+  }
+
+  .border-bottom-newsletter {
+    border-bottom: 2px solid #f4f5f6;
+  }
+
+  .icons-list {
+    margin-left: auto;
+  }
+
+  .border-right {
+    border-right: 1px solid #d9d9d9;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-grid {
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas:
+      "featured-stories top-story the-debate"
+      "featured-stories my-turn the-debate"
+      "featured-stories culture-and-travel the-debate"
+      "featured-stories more-stories form-start-your-day"
+      "featured-stories more-stories form-start-your-day";
+  }
+
+  .magazine-subs {
+    width: 162%;
+  }
+
+  .card {
+    height: 18rem;
+  }
+
+  .input-newsletter {
+    width: 100%;
+  }
+
+  .button-free-sign-up-2 {
+    width: 100%;
+  }
+
+  .border-bottom-newsletter-2 {
+    border-bottom: 2px solid #f4f5f6;
+  }
+
+  .main-logo {
+    width: 60%;
+  }
+
+  .nav-date {
+    color: white;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-login {
+    color: white;
+    font-family: var(--oswald-font);
+  }
+
+  .header {
+    position: static;
+  }
+
+  .firts-ul {
+    background-color: white;
+  }
+
+  .second-ul {
+    background-color: white;
+  }
+
+  .nav-item-user {
+    color: black;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user-2 {
+    color: black;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user-3 {
+    color: #807f84;
+    font-family: var(--oswald-font);
+  }
+
+  .nav-item-user:hover {
+    color: var(--red-color);
+  }
+
+  .nav-item-user-2:hover {
+    color: black;
+  }
+
+  .nav-item-user-3:hover {
+    color: var(--red-color);
+  }
+
+  .nav-search {
+    width: 30%;
+  }
+
+  .sharp-point-rectangle {
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid var(--red-color);
+    border-bottom: 10px solid var(--red-color);
+    transform: rotate(180deg);
+  }
+
+  .rectangle {
+    height: 20px;
+    width: 80px;
+    background-color: var(--red-color);
+  }
+}
